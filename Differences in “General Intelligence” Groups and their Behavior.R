@@ -113,7 +113,7 @@ t_MA%>%
   arrange(crt1_u,crt2_u,crtb_use)
 
 #generating the output in Tex
-2print(xtable(t, type = "latex"))
+print(xtable(t, type = "latex"))
 
 #Fitting the linear model
 glm(ma_buy~treatment+crtb_use+crt1_u+crt2_u, family = binomial(link = "logit"),data=data_2)->glm_MA
