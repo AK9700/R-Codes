@@ -1,7 +1,9 @@
 
 #This file is written in R
 #Overview: I was asked by an academic center to collapse grid-level dataset from India to 
-#a district level dataset by estimating total rainfall and mean rainfall/temperature. The other tasks included graphing daily rainfall, and fitting a fixed effects model by regressing rainfall and total #rainfall on #temperature.
+#a district level dataset by estimating total rainfall and mean rainfall/temperature.
+#The other tasks included graphing daily rainfall, and fitting a fixed effects model by regressing rainfall
+#and total #rainfall on temperature.
 
 #install packages in not already present 
 #install.packages("tidyverse")
